@@ -37,7 +37,7 @@ public class CurrencyConverter {
 		} else if (code == 2) {
 			
  
-		 peso = amount * 0.05;
+		 peso = amount * 19.88;
 			System.out.println("Your " + amount + " Dollar is : " + f.format(peso) + " Peso");
  
 		pound = amount * 0.78;
