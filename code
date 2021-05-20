@@ -1,6 +1,3 @@
-import java.util.*;
-import java.text.DecimalFormat;
- 
 public class CurrencyConverter {
  
 	public static void main(String[] args) {
@@ -24,13 +21,13 @@ public class CurrencyConverter {
 		
 		if (code == 1) {
  
-			dollar = amount / 19.88;
+			dollar = amount / 0.05;
 			System.out.println("Your " + amount + " Peso is  = " + f.format(dollar) + " Dollar");
  
-			pound = amount / 28.20;
+			pound = amount / 0.035;
 			System.out.println("Your " + amount + " Peso is = " + f.format(pound) + " Pound");
  
-			euro = amount / 24.29;
+			euro = amount / 0.041;
 			System.out.println("Your " + amount + " Peso is = " + f.format(euro) + " Euro");
  
 			
@@ -40,7 +37,7 @@ public class CurrencyConverter {
 		 peso = amount * 19.88;
 			System.out.println("Your " + amount + " Dollar is : " + f.format(peso) + " Peso");
  
-		pound = amount * 0.78;
+		pound = amount * 0.70;
 			System.out.println("Your " + amount + " Dollar is : " + f.format(pound) + " Pound");
  
 			euro = amount * 0.87;
@@ -50,7 +47,7 @@ public class CurrencyConverter {
 		} else if (code == 3) {
 			
  
-			peso = amount * 0.035 ;
+			peso = amount * 28.21 ;
 			System.out.println("Your " + amount + " pound is : " + f.format(peso) + " Peso");
  
 			dollar = amount * 1.26;
@@ -63,7 +60,7 @@ public class CurrencyConverter {
 		  } else if (code == 4) {
 			
  
-			peso = amount * 0.041;
+			peso = amount * 28.21;
 			System.out.println("Your " + amount + " euro is : " + f.format(peso) + " Peso");
  
 			dollar = amount * 1.14;
