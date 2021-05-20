@@ -1,3 +1,6 @@
+import java.util.*;
+import java.text.DecimalFormat;
+ 
 public class CurrencyConverter {
  
 	public static void main(String[] args) {
@@ -21,13 +24,13 @@ public class CurrencyConverter {
 		
 		if (code == 1) {
  
-			dollar = amount / 0.05;
+			dollar = amount / 19.87;
 			System.out.println("Your " + amount + " Peso is  = " + f.format(dollar) + " Dollar");
  
-			pound = amount / 0.035;
+			pound = amount / 28.19;
 			System.out.println("Your " + amount + " Peso is = " + f.format(pound) + " Pound");
  
-			euro = amount / 0.041;
+			euro = amount / 24.30;
 			System.out.println("Your " + amount + " Peso is = " + f.format(euro) + " Euro");
  
 			
